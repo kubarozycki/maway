@@ -1,0 +1,26 @@
+@import "./Globals.scss";
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+
+    .confirmation-form {
+        display: flex;
+        justify-content: center;
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 0 $padding-mid;
+            @media (min-width: 768px) {
+                width: 300px;
+                letter-spacing: 0.4rem;
+            }
+        }
+
+        .confirmation-row{
+            padding: $padding-mid 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

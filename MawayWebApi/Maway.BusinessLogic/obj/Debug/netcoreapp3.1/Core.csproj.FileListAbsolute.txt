@@ -1,0 +1,12 @@
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.1/Maway.Data.dll
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.1/Maway.Data.pdb
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Core.csprojAssemblyReference.cache
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Core.csproj.CoreCompileInputs.cache
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Core.AssemblyInfoInputs.cache
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Core.AssemblyInfo.cs
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Core.csproj.CopyComplete
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.1/Maway.BusinessLogic.deps.json
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.1/Maway.BusinessLogic.dll
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.1/Maway.BusinessLogic.pdb
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Maway.BusinessLogic.dll
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.1/Maway.BusinessLogic.pdb

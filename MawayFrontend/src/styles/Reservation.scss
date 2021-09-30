@@ -1,0 +1,100 @@
+@import "./Globals.scss";
+
+$icon-sircle-size: 50px;
+$footer-height: 60px;
+
+.reservation-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  .steps-container {
+    @media (min-width: 768px) {
+      min-height: 100px;
+    }
+    display: flex;
+    justify-content: center;
+    border-bottom: $border-width solid $main-color;
+    .step {
+      display: flex;
+      flex-direction: column;
+      padding: $padding-mid $padding-small;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        padding: $padding-mid $padding-large;
+      }
+      .step-circle {
+        width: $icon-sircle-size;
+        height: $icon-sircle-size;
+        border: $border-width solid $gray-color;
+        border-radius: 50px;
+        margin: 0 auto;
+        color: $gray-color;
+        .icon-placeholder {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          svg {
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .active {
+        border: $border-width solid $main-color;
+        color: $main-color;
+      }
+
+      .step-footer {
+        font-size: $font-mid;
+        padding: $padding-small;
+        color: $gray-color;
+        display: none;
+        @media (min-width: 768px) {
+          display: block;
+        }
+      }
+    }
+  }
+  .reservation-step-container {
+    padding: $padding-small 0;
+    @media (min-width: 768px) {
+      padding: $padding-large 0;
+    }
+    // border-bottom: $border-width solid $main-color;
+    overflow-y: auto;
+    flex-grow: 1;
+    .range-picker-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &>h3{
+      text-align: center;
+      padding: 0 $padding-mid;
+    }
+  }
+  .reservation-steps-navigation {
+    flex-basis: $footer-height;
+    min-height: $footer-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: $border-width solid $main-color;
+
+    .buttons-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .right-container,
+      .left-container{
+        display: flex;
+        justify-content: center;
+        
+      }
+    }
+  }
+}

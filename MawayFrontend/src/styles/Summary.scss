@@ -1,0 +1,36 @@
+.summary-trigger-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 $padding-mid;
+    svg {
+        color: $gray-color;
+        cursor: pointer;
+    }
+}
+.summary-groups{
+    padding: 10px;
+
+    .summary-group {
+        &:hover{
+            transform: none;
+        }
+        h4{
+            border-bottom: 2px solid $main-color;
+        }
+        .summary-details-row {
+            display: flex;
+            justify-content: space-between;
+    
+            .name,
+            .value {
+                padding: $padding-small;
+            }
+    
+            .name {
+                font-weight: 600;
+            }
+        }
+    }
+    
+}

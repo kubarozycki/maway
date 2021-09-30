@@ -1,0 +1,108 @@
+@import "./Globals.scss";
+.extras-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .extras-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $padding-small $padding-mid;
+    .check-box {
+      box-shadow: -1px 3px 9px 0 #b4b4b4;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+      height: 44px;
+      width: 100%;
+      font-size: $font-mid;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media (min-width: 768px) {
+        height: 50px;
+        width: 40%;
+      }
+      @media (hover: hover) {
+        &:hover {
+          box-shadow: 0px 0px 8px 0px rgba(9, 9, 9, 0.2);
+        }
+      }
+
+      .check-box-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 $padding-mid;
+        font-size: 1.15rem;
+        .price {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  font-size: $font-mid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  label {
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    // height: 0;
+    // width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    outline: 1px solid $main-color;
+  }
+
+  .checkmark:after {
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  input:checked ~ .checkmark {
+    background-color: $main-color;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+}
+
+.checkbox-container:hover {
+  input ~ .checkmark {
+    background-color: lightgray;
+  }
+}

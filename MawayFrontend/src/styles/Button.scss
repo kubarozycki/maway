@@ -1,0 +1,40 @@
+.mawayButton {
+  box-shadow: 0px 0px 8px 0px rgba(9, 9, 9, 0.2);
+  background: $main-color;
+  letter-spacing: 0.2rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 34px;
+  width: 100px;
+  font-size: $font-mid;
+  margin: 0 5px;
+
+  @media (min-width: 768px) {
+    height: 40px;
+    width: 150px;
+    letter-spacing: 0.4rem;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      background: $gray-color;
+    }
+  }
+}
+
+.wide {
+  width: 40px;
+  margin: 0;
+}
+
+.disabled {
+  background: #b4b4b4;
+  cursor: not-allowed;
+
+  &:hover {
+    background: #b4b4b4;
+  }
+}

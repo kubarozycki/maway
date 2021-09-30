@@ -1,0 +1,12 @@
+@import "./Globals.scss";
+
+.item-select-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: $padding-small $padding-small;
+  @media (min-width: 768px) {
+    padding: $padding-small $padding-large;
+  }
+  
+}

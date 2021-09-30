@@ -1,0 +1,12 @@
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.0/Core.deps.json
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.0/Core.dll
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.0/Core.pdb
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.0/Maway.Data.dll
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/bin/Debug/netcoreapp3.0/Maway.Data.pdb
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.csprojAssemblyReference.cache
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.csproj.CoreCompileInputs.cache
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.AssemblyInfoInputs.cache
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.AssemblyInfo.cs
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.csproj.CopyComplete
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.dll
+/Users/rozyckj/repos/mawayRental/MawayWebApi/MawayWebApi/Core/obj/Debug/netcoreapp3.0/Core.pdb

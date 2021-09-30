@@ -1,0 +1,1 @@
+﻿dotnet ef migrations add initial --startup-project ..\MawayWebApi\ --context DatabaseContext
